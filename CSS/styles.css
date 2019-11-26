@@ -1,0 +1,104 @@
+body {
+background-image: url("../images/A&M Bike.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ width: 100%;
+ height: 100%;
+ display: grid;
+}
+
+.location{
+  width: 60px; height: 60px;
+  position: absolute;
+  left: 60px; top: 60px;
+}
+
+
+.heading {
+  margin: 0;
+  color: #eccd8f;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  position: absolute;
+  top: 120px; right: 160px;
+}
+
+.top-container1 {
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  top: 15px; right: 360px;
+}
+
+.top-container2 {
+  display: inline-block;
+  width: 75px;
+  position: absolute;
+  top: 60px; right: 640px;
+}
+
+
+.date-and-venue{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 190px; right: 180px;
+  color: #ffe7d1;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+
+.top-container3 {
+  display: inline-block;
+  width: 75px;
+  position: absolute;
+  top: 30px; right: 90px;
+}
+
+
+
+
+.bottom-container {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.frost-box {
+  width: 40%;
+  height: 80%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 10%; right: 7%;
+  background: inherit;
+}
+
+.frost-box:before {
+content: "";
+position: absolute;
+background: inherit;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+box-shadow: inset 0 0 2000px, rgba(255,255,255,.5);
+filter: blur(10px);
+}
+
+.cloud{
+  filter: grayscale(20%);
+}
+
+.middle-container{
+  font-family: 'Lobster', cursive;
+
+}
+
+.cloud{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
